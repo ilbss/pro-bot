@@ -56,11 +56,11 @@
    		$parameters = array('chat_id' => $chatId, "text" => $text);
   	}
 
-		if($text == "actis"){
+		if($text == "Actis"){
    		$Actis[0]="Ma questa classe è un bivacco!";
 		$Actis[1]="Fernicola, credi forse che noi insegnanti siamo dei celebrolesi?!";
 		$Actis[2]="Questo libro è prolisso!";
-   		$i = rand(0,2)
+   		$i = rand(0,2);
 		$parameters = array('chat_id' => $chatId, "text" => $Actis[$i]);
   	}
 		
