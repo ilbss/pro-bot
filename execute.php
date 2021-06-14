@@ -48,10 +48,7 @@
 		//i parametri sono cosa voglio mandare indietro al mio utente
 		$parameters = array('chat_id' => $chatId, "text" => $text);
 		
-	if($text == "Actis"){
-   		$text ="Ma questa classe è un Bivacco!";
-		$parameters = array('chat_id' => $chatId, "text" => $text);
-  	}
+
 	
 
 	if($text == "ciao"){
@@ -59,7 +56,10 @@
    		$parameters = array('chat_id' => $chatId, "text" => $text);
   	}
 
-	
+		if($text == "actis"){
+   		$text="Ma questa classe è un bivacco!";
+   		$parameters = array('chat_id' => $chatId, "text" => $text);
+  	}
 		
 			
 	
