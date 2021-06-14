@@ -48,8 +48,6 @@
 		//i parametri sono cosa voglio mandare indietro al mio utente
 		$parameters = array('chat_id' => $chatId, "text" => $text);
 		
-
-
 	//Sezione BATTUTE/MOTTI
 	
 	if($text == "ciao"){
