@@ -56,12 +56,8 @@
   	}
 
 	if($text == "Actis"){
-   		$Actis[0] ="Ma questa classe è un bivacco!";
-   		$Actis[1] ="Credete che noi insegnanti siamo dei celebrolesi?!";
-		$Actis[2] ="ELDONAAAAAAA";
-		$i = rand(0,2);
-		$parameters = array('chat_id' => $chatId, "text" => $Actis[$i]);
-	
+   		$text="Ma questa classe è un bivacco!";
+		$parameters = array('chat_id' => $chatId, "text" => $text);
 		
 	}	
 		
