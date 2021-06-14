@@ -49,7 +49,7 @@
 		$parameters = array('chat_id' => $chatId, "text" => $text);
 		
 		if($text == "ciao"){
-   			$text="Benvenuto sul Bot Sasuke Uchihaa!";
+   			$text="Benvenuto su questo server. Ricordati di non aprire l'ombrello prima che PIOVE!";
    			$parameters = array('chat_id' => $chatId, "text" => $text);
   		}
 		
@@ -59,13 +59,6 @@
 		
 		$parameters["method"] = "sendMessage";
         echo json_encode($parameters);
-		
-		
-if($text == "Ciao"){
-	$text = "Benvenuto su questo server. Ricordati di non aprire l'ombrello prima che PIOVE!";
-	$parameters = array('chat_id' => $chatID, "text" => $text);
-	}
-		
 		
 		
 		
