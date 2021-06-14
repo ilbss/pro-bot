@@ -56,13 +56,16 @@
    		$parameters = array('chat_id' => $chatId, "text" => $text);
   	}
 
-		if($text == "Actis"){
-   		$Actis[0] = "Ma questa classe è un bivacco!";
-		$Actis[1] = "Fernicola, credi forse che noi insegnanti siamo dei celebrolesi?!";
-		$Actis[2] = "Questo libro è prolisso!";
-		$Actis[3] = "Ragazzi, che disastro!";
-   		$i = rand(0,3);
-		$parameters = array('chat_id' => $chatId, "text" => $Actis[0,3]);
+	if($text == "Actis"){
+   		$text="Ragazzi, che disastro!";
+   		$parameters = array('chat_id' => $chatId, "text" => $text);
+  	}
+	
+	if($text == "barze"){
+		$barze[0] = "Cosa fa Sandiano in pizzeria? Ordina una pizza ai QUATRO formaggi.";
+		$barze[1] = "Qual è il colmo per Grieco? Camminare storto ma insegnare Diritto!";
+   		$i = rand(0,1);
+		$parameters = array('chat_id' => $chatId, "text" => $Barze[$i]);
   	}
 		
 			
