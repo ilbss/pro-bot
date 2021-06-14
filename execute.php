@@ -62,7 +62,7 @@
    		$text[1] ="Credete che noi insegnanti siamo dei celebrolesi?!";
 		$text[2] ="ELDONAAAAAAA";
 		$i = rand(0,2);
-		$parameters = array('chat_id' => $chatId, "text" => $text[$i]);
+		$parameters = array('chat_id' => $chatId, "text" => $Actis[$i]);
 	
 		
 	}	
