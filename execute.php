@@ -49,10 +49,12 @@
 		$parameters = array('chat_id' => $chatId, "text" => $text);
 		
 	if($text == "Actis"){
-   		$text="Ma questa classe è un bivacco!";
-		$parameters = array('chat_id' => $chatId, "text" => $text);
-		
-	}	
+   		$Actis[0] ="Ma questa classe è un Bivacco!";
+   		$Actis[1] ="Fernicola, credi che noi insegnanti siamo dei celebrolesi?!";
+		$Actis[2] ="Il vostro libro è prolisso";
+		$i = rand(0,2);
+		$parameters = array('chat_id' => $chatId, "text" => $Actis[$i]);
+  	}
 	
 
 	if($text == "ciao"){
