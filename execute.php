@@ -58,6 +58,10 @@
         echo json_encode($parameters);
 		
 		
+if($text =="Ciao"){
+	$text ="Benvenuto su questo server. Ricordati di non aprire l'ombrello prima che PIOVE!";
+	$parameters = array('chat_id' => $chatID, "text" => $text);
+	}
 		
 		
 		
