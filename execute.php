@@ -60,9 +60,9 @@
    		$Actis[0] = "Ma questa classe è un bivacco!";
 		$Actis[1] = "Fernicola, credi forse che noi insegnanti siamo dei celebrolesi?!";
 		$Actis[2] = "Questo libro è prolisso!";
-		$Actis[3] ="Ragazzi, che disastro!";
+		$Actis[3] = "Ragazzi, che disastro!";
    		$i = rand(0,3);
-		$parameters = array('chat_id' => $chatId, "text" => $Actis[$i]);
+		$parameters = array('chat_id' => $chatId, "text" => $Actis[0,3]);
   	}
 		
 			
