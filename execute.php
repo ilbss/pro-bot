@@ -154,6 +154,18 @@
 		$parameters = array('chat_id' => $chatId, "text" => $text);
 	}
 	
+	if($text == "girasole"){
+		$text= "SPADA MERDA!";
+		$parameters = array('chat_id' => $chatId, "text" => $text);
+	}
+
+	if($text == "coniglio"){
+		$text= "Speriamo che se ne torni dal buco di culo da cui è uscito strisciando quel figlio di troia."
+		$parameters = array('chat_id' => $chatId, "text" => $text);
+	}
+
+
+
 	//ZONA BARZELLETTE
 
 	if($text == "barze"){
