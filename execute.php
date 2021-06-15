@@ -160,7 +160,7 @@
 	}
 
 	if($text == "coniglio"){
-		$text= "Speriamo che se ne torni dal buco di culo da cui è uscito strisciando quel figlio di troia."
+		$text= "Speriamo che se ne torni dal buco di culo da cui è uscito strisciando quel figlio di troia.";
 		$parameters = array('chat_id' => $chatId, "text" => $text);
 	}
 
