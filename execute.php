@@ -62,107 +62,23 @@
 		Ma questa classe è un bivacco! Nduma avante"; 	
 				
 		$parameters = array('chat_id' => $chatId, "text" => $text);	
-			}
-		
+	}
 	if($text == "Appello"){
-		$text ="Allora, dovremmo essere 25, ci sono tre assenti, io e la professoressa siamo in 2, quindi in totale siamo 24. OK, QUADRA.";
+		$text="Allora, dovremmo essere venticinque, ci sono tre assenti, io e la professoressa siamo in due, quindi in totale siamo in ventiquattro. OK, QUADRA.";
 		$parameters = array('chat_id' => $chatId, "text" => $text);
 	}
 	
-
-	if($text =="Barone"){
-		$text="Glielo ho gia detto Vis A Vis che cosa pensereSSe, parla potabile.
+	if($text == "Barone"){
+		$text="Parla potabile.
+		Che cosa pensereSSe.
 		
-		Tu non hai il diritto di dire che Foscolo è triste! Non mi sono mai permessa io in 41 anni di lavoro, quindi non puoi neanche farlo tu, che non sei neanche un critico e tantomeno psicologo!!
+		Tu non hai il diritto di dire che Foscolo è triste! Non mi sono mai permessa io in quarantuno anni di lavoro, quindi non puoi neanche farlo tu, che non sei neanche un critico e tantomeno psicologo!
 		
-		Non dite fregnacce!";
+		Non dite fregnacce.";
+		$parameters = array('chat_id' => $chatId, "text" => $text);
+	}
 		
-		$parameters = array('chat_id' => $chatId, "text" => $text);	
-	}
-
-	if($text == "Spada"){
-		$text="Siete dei deficenti! Ma non nel senso che siete stupidi, ma perchè deficete di intelligenza!.
-		
-		Siete dei latitanti!";
-
-		$parameters = array('chat_id' => $chatId, "text" => $text);
-	}
-
-	if($text == "Sandiano"){
-		$text="Se non fate i compiti è QUATRO in automatico.
-		Sandy facci uscireeee!!";
-		$parameters = array('chat_id' => $chatId, "text" => $text);
-	}
-
-	if($text == "Mastroianni"){
-		$text == "Questo anno VOLIAMO i liBBri dalla finestra!
-		I deBBiti";
-		$parameters = array('chat_id' => $chatId, "text" => $text);
-	}
-
-	if($text =="Stassi"){
-		$text ="WE PROVOLONEEH?!
-		Vatti a cambiare VAH";
-		$parameters = array('chat_id' => $chatId, "text" => $text);
-	}
-
-	if($text == "bava"){
-		$text="La risposta è dentro di te
-		Bambiniii?!";
-		$parameters = array('chat_id' => $chatId, "text" => $text);
-	}
-
-	if($text == "Manzoni"){
-		$text="oehi tu va a posto!
-		Tu siediti!
 	
-		Eh BUOANOTTEEEE!
-	
-		Idi idi che a mamma ha fatto i gnocchi!
-	
-		Tu siediti!";
-		$parameters = array('chat_id' => $chatId, "text" => $text);
-	}
-
-
-	if($text == "Balzaretti"){
-		$text="Grazie ragazzi grazie, grazie.";
-		$parameters = array('chat_id' => $chatId, "text" => $text);
-	}
-
-
-	if($text == "Brunetti"){
-		$text="L-IVA???!? Cosa è L-IVA??!?";
-		$parameters = array('chat_id' => $chatId, "text" => $text);
-	}
-
-
-	if($text == "Valisone"){
-		$text="Un par de ciufoli!
-		E come dice mia cugina :- e bom-.";
-		$parameters = array('chat_id' => $chatId, "text" => $text);
-	}
-
-
-	if($text == "Comerci"){
-		$text="FILIPPO?!
-		VITTORIO?!
-		RICCARDO?!";
-		$parameters = array('chat_id' => $chatId, "text" => $text);
-	}
-
-
-	if($text == "Alù"){
-		$text="Una frase sbagliata non è solo una frase sbagliata ma anche una frase non giusta.
-		facciamo un test di verifica";
-		$parameters = array('chat_id' => $chatId, "text" => $text);
-	}
-
-
-	if($text == "Buffone"){
-		$text="Copy, copy! Copy like a monkey!";
-		$parameters = array('chat_id' => $chatId, "text" => $text);
-	}
 	
 
 
