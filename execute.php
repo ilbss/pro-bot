@@ -55,8 +55,8 @@
 	}
 		
 	if($text == "actis"){
-		$text="Ragazzi, che disastro! </br>
-		Ma questa classe è un bivacco! Nduma avante. </br>
+		$text="Ragazzi, che disastro!
+		Ma questa classe è un bivacco! Nduma avante.
 		Scusate, cos è sto mercato?!"; 	
 		$parameters = array('chat_id' => $chatId, "text" => $text);	
 	}
