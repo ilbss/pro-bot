@@ -63,6 +63,7 @@
 				
 		$parameters = array('chat_id' => $chatId, "text" => $text);	
 	}
+	
 	if($text == "Appello"){
 		$text="Allora, dovremmo essere venticinque, ci sono tre assenti, io e la professoressa siamo in due, quindi in totale siamo in ventiquattro. OK, QUADRA.";
 		$parameters = array('chat_id' => $chatId, "text" => $text);
