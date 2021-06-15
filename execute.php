@@ -48,12 +48,13 @@
 		//i parametri sono cosa voglio mandare indietro al mio utente
 		$parameters = array('chat_id' => $chatId, "text" => $text);
 		
-			if($text == "ciao"){
-			$text="Benvenuto su questo server. Ricordati di non aprire l'ombrello prima che PIOVE, altrimenti la Francia starnutisce e l Europa ha il raffreddore. Buon divertimento!";
-			$parameters = array('chat_id' => $chatId, "text" => $text);
+	
+	if($text == "ciao"){
+		$text="Benvenuto su questo server. Ricordati di non aprire l'ombrello prima che PIOVE, altrimenti la Francia starnutisce e l Europa ha il raffreddore. Buon divertimento!";
+		$parameters = array('chat_id' => $chatId, "text" => $text);
+	}
 		
-		
-			//SEZIONE MOTTI
+
 
 	if($text == "actis"){
 		$text= "Scusate, cos è sto mercato?!     
