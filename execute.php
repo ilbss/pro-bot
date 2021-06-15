@@ -55,11 +55,10 @@
 	}
 		
 	if($text == "actis"){
-		$text="Ragazzi, che disastro!        Ma questa classe è un bivacco! Nduma avante.        Scusate, cos è sto mercato?!"; 	
+		$text="Scusate, cos è sto mercato?!"; 	
 		$parameters = array('chat_id' => $chatId, "text" => $text);	
 	}
 	
-	}
 
 	if($text == "ciao"){
    		$text="Benvenuto su questo server. Ricordati di non aprire l'ombrello prima che PIOVE!";
