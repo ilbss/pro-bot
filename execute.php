@@ -55,7 +55,7 @@
 	}
 		
 	if($text == "actis"){
-		$text="Scusate, cos è sto mercato?!"; 	
+		$text="Scusate, cos è sto mercato?!     Non siamo dei Superman noi docenti!     Fernicola, credi che noi docenti siamo dei celebrolesi?! "; 	
 		$parameters = array('chat_id' => $chatId, "text" => $text);	
 	}
 	
