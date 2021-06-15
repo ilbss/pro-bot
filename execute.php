@@ -47,26 +47,23 @@
 		header("Content-Type: application/json");
 		//i parametri sono cosa voglio mandare indietro al mio utente
 		$parameters = array('chat_id' => $chatId, "text" => $text);
-	
-
-	if($text == "eldona"){
-		$text="Ma questa classe è un bivacco! Nduma avante";
-		$parameters = array('chat_id' => $chatId, "text" => $text);
-	}
-		
-	if($text == "actis"){
-	$text= "Scusate, cos è sto mercato?!     
-		Non siamo dei Superman noi docenti!     
-		Fernicola, credi che noi docenti siamo dei celebrolesi?! "; 	
-		$parameters = array('chat_id' => $chatId, "text" => $text);	
-	}
-	
 
 	if($text == "ciao"){
    		$text="Benvenuto su questo server. Ricordati di non aprire l'ombrello prima che PIOVE!";
    		$parameters = array('chat_id' => $chatId, "text" => $text);
   	}
 
+	if($text == "actis"){
+	$text= "Scusate, cos è sto mercato?!     
+		Non siamo dei Superman noi docenti!     
+		Fernicola, credi che noi docenti siamo dei celebrolesi?! 
+		Ma questa classe è un bivacco! Nduma avante"; 	
+		
+		$parameters = array('chat_id' => $chatId, "text" => $text);	
+	}
+	
+	
+	
 	
 			
 	
