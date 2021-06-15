@@ -53,7 +53,7 @@
 		$parameters = array('chat_id' => $chatID, "text" => $text);
 	}
 
-	if($text == "ciao"){
+	if($text == "actis"){
    		$text="Benvenuto su questo server. Ricordati di non aprire l'ombrello prima che PIOVE!";
    		$parameters = array('chat_id' => $chatId, "text" => $text);
   	}
