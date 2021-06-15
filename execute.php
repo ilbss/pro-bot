@@ -49,8 +49,8 @@
 		$parameters = array('chat_id' => $chatId, "text" => $text);
 	
 
-	if($text == "Eldona"){
-		$text="Ma questa classe è un bivacco! 'Nduma avante";
+	if($text == "eldona"){
+		$text="Ma questa classe è un bivacco! Nduma avante";
 		$parameters = array('chat_id' => $chatId, "text" => $text);
 	}
 		
