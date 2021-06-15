@@ -68,15 +68,8 @@
 		$parameters = array('chat_id' => $chatId, "text" => $text);
 	}
 	
-	if($text == "Barone"){
-		$text="Parla potabile.
-		Che cosa pensereSSe.
-		
-		Tu non hai il diritto di dire che Foscolo è triste! Non mi sono mai permessa io in quarantuno anni di lavoro, quindi non puoi neanche farlo tu, che non sei neanche un critico e tantomeno psicologo!
-		
-		Non dite fregnacce.";
-		$parameters = array('chat_id' => $chatId, "text" => $text);
-	}
+
+	
 		
 	
 	
