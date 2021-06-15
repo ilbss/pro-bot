@@ -47,13 +47,16 @@
 		header("Content-Type: application/json");
 		//i parametri sono cosa voglio mandare indietro al mio utente
 		$parameters = array('chat_id' => $chatId, "text" => $text);
+	
+
+	if($text == "Eldona"){
+		$text="Ma questa classe è un bivacco! 'Nduma avante";
+		$parameters = array('chat_id' => $chatId, "text" => $text);
+	}
 		
 	if($text == "actis"){
-		$text[0]="Ragazzi, che disastro!";
-		$text[1]="Ma questa classe è un bivacco!";
-		$text[2]="Fernicola, credi forse che noi insegnati siamo dei celebrolesi?!";
-		$i = rand(0,2)
-		$parameters = array('chat_id' => $chatId, "text" => $text[$i]);
+		$text="Ragazzi, che disastro!";
+		$parameters = array('chat_id' => $chatId, "text" => $text);	
 	}
 
 	if($text == "ciao"){
