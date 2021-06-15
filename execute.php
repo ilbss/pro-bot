@@ -55,8 +55,10 @@
 	}
 		
 	if($text == "actis"){
-		$text="Ragazzi, che disastro!";
-		$parameters = array('chat_id' => $chatId, "text" => $text);	
+		$text[0]="Ragazzi, che disastro!";
+		$text[1]="Il vostro libro è prolisso!";
+		$i = rand(0,1)
+		$parameters = array('chat_id' => $chatId, "text" => $text[$i]);	
 	}
 
 	if($text == "ciao"){
