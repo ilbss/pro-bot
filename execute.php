@@ -168,8 +168,8 @@
 	//ZONA BARZELLETTE	
 
 	if($text =="Barze"){
-		$barze[0] ="Cosa fa Sandiano in pizzeria? Ordina una QUATRO formaggi."
-		$barze[1] ="Cosa mangiano gli ebrei a pasqua? Le uova."
+		$barze[0] ="Cosa fa Sandiano in pizzeria? Ordina una QUATRO formaggi.";
+		$barze[1] ="Cosa mangiano gli ebrei a pasqua? Le uova.";
 		$barze[2] ="Qual è il colmo per Grieco? Camminare storto ma insegnare Diritto.";
 
 		$i = rand(0,2);
